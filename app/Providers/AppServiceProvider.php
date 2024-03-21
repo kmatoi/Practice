@@ -19,11 +19,8 @@ class AppServiceProvider extends ServiceProvider
      *
      * @return void
      */
-    public function boot(){
-        Paginator::useBootstrap();
-        
-        
-        //Paginator::useBootstrapFive();
-        //または Paginator::useBootstrapFour();
+    public function boot()
+    {
+        Paginator::useBootstrap(); 
     }
 }
